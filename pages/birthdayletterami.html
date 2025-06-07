@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/imgs/cake-pic.png" type="image/png">
+    <title>its your day</title>
+    
+   <link rel="stylesheet" href="../assets/css/styleletter.css">
+</head>
+<body>
+    <div id="container">
+        <div id="cake-canvas"></div>
+        <div id="instructions">🎂 dorki f la tarte bah tafi chmo3 😁 🎂</div>
+        <div id="scroll-instruction"> habti taht tcho👇 </div>
+        <canvas id="confetti-canvas"></canvas>
+        <div id="letter">
+            <h1>Happy Birthday pusssycat 😘 !</h1>
+            <p>
+                To my dear sister 😘,
+
+            On your special day, your birthday, I want to tell you how truly grateful I am to have you in my life. You have always been there for us for me, my brothers, and our mother. You care for us with so much love. You provid us with everything we need, without asking for anything in return. That shows how big your heart is and how unconditional your love is. <br>
+
+            Even though you live far away in France, and have your own beautiful family your husband, and your lovely children Iwen, Sami, and our little princess Amelia ,you always stay close to us with your kindness and generous spirit.
+
+            On this birthday, I pray that your life is filled with happiness, health, and peace. May God bless and protect you and your family.
+
+            Happy birthday to the best sister in the world ❤️ <br>
+
+With all my love,
+Housseyn 😎
+
+
+            </p>
+            <h1>ou ma3a l mofajaa l kobraaa 🥁🥁</h1>
+            <a class="btn" href="vd.html">ZIDI tcho dorki hna 🤚</a>
+        </div>
+    </div>
+
+    <div id="spacer"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="../assets/js/script.js"></script>
+  <script>
+    // هذا يشتغل بعد أول نقرة على أي مكان في الصفحة
+document.addEventListener('click', function playMusicOnce() {
+    const audio = new Audio('Yiruma-RiverFlowsInYou.mp3');
+    audio.loop = true;
+    audio.play();
+    // نزيل الـ listener عشان ما يكرر كل مرة
+    document.removeEventListener('click', playMusicOnce);
+});
+
+  </script>
+</body>
+</html>
